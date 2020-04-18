@@ -1,0 +1,151 @@
+
+/* 导航栏 */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #000000;
+    text-align: center;
+    background-size:100%;
+}
+
+.navigation{
+    background-image:url(../images/black.jpg);
+    height:50px;
+}
+/* .navigation div{
+    position: relative;
+    display:inline-block;
+    width: 12%;
+    height: 50px; */
+/* }
+.navigation div:hover{
+    background-image: url(../images/yellow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+} */
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.navigation li{
+    float: left;
+}
+
+a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 62px 16px;
+    text-decoration: none;
+}
+a:hover{ 
+    text-decoration-color: white;
+    background-image: url(../images/yellow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+}
+
+
+
+
+
+
+
+
+/* 中间的内容 */
+section{
+    height: auto;
+}
+
+#box {
+    width: 100%;
+    height: 561px;
+    
+    overflow: hidden; /*图片溢出部分隐藏*/
+    position: relative; /*子绝父相*/
+    top: 0px;
+}
+   
+#mctop{
+    width:100%;
+    height: 50px;
+}
+#mcbottom{
+    position: absolute;
+    top: 463px;
+    width:100%;
+    height: 100px;
+}
+
+#pic {
+    position: absolute;
+    top:50px;
+    left: 0;
+    right: 0;
+    
+    }
+
+#pic1 {
+    
+    position: absolute;
+    left: 0;
+    height: 454px;
+}
+#pic2 {
+    height: 400px;
+    position: absolute;
+    left: 62022px;
+    
+}
+
+#right {
+    width: 50%;
+    height: 100%;
+    position: absolute; /*子绝父相*/
+    left: 0;
+    cursor: pointer; /*鼠标*/
+     /* 顶部对齐 */
+    top:0; 
+}
+    
+#left {
+    width: 50%;
+    height: 100%;
+    position: absolute; /*子绝父相*/
+    right: 0;
+    cursor: pointer;
+    /* 底部对齐 */
+    top: 0;
+}
+
+
+
+
+
+
+/* 脚部代码 */
+footer{
+   
+    margin:0px;
+    color: gray;    font-size: 12px;
+   
+     padding :20px 20px;
+    text-align: center;
+     background-image:url(../images/black.jpg);   height:30px;
+
+    
+    overflow:hidden;
+
+}
+
+
+
+
+
